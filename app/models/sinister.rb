@@ -1,3 +1,3 @@
 class Sinister < ApplicationRecord
-  belongs_to :rent_id
+  belongs_to :rent
 end
