@@ -13,6 +13,8 @@ gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
 # Rails jQuery file uploads via standard Rails
 gem 'remotipart'
+# Flexible authentication solution for Rails with Warden.
+gem 'devise'
 # RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data
 gem 'rails_admin'
 # rails_admin theme flat theme
