@@ -1,3 +1,5 @@
 class Category < ApplicationRecord
-  belongs_to :car
+  has_many :car
+
+  validates :name
 end
