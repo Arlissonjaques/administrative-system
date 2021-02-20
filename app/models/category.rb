@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
-  has_many :car
+  has_many :cars
 
-  validates :name
+  validates :name, presence: true
 end
